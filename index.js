@@ -6,6 +6,7 @@ const AbTestCampaigns = require('./src/AbTestCampaigns');
 const ProductAndRevenue = require('./src/ProductAndRevenue');
 const RelationalTableRows = require('./src/RelationalTableRows');
 const TransactionalCampaigns = require('./src/TransactionalCampaigns');
+const OrderItemInput = require('./src/ResultTypes/OrderItemInput');
 
 module.exports = 
 {
@@ -18,7 +19,8 @@ module.exports =
       ProductAndRevenue,
       RelationalTableRows,
       Reports,
-      TransactionalCampaigns
+      TransactionalCampaigns,
+      OrderItemInput
     }
   }
 };
